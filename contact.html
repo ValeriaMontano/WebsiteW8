@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/86b9994c48.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--created an  Id atrtribute to style h1-->
+    <h1 id="Bigger">Contact Us</h1>
+    <div class="hov"> <!--The hover class here -->
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="Services.html">Services</a>
+    </div>
+<!--created a class only for this image because it is the only ones I wanted floating -->
+    <img class="imag"
+      
+      height="350px"
+      src="https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+      alt="Fcaebook"
+    />
+    <img
+      height="350px"
+      src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+      alt="Instagram"
+    />
+    <table>
+      <tr>
+        <th>Site</th>
+        <th>Link</th>
+      </tr>
+      <tr>
+        <td>Facebook</td>
+        <td><a href="#">Visit our Facebook</a></td>
+      </tr>
+      <td>Instagram</td>
+      <td><a href="#">Visit our Instagram</a></td>
+    </table>
+  </div>
+      <!-- create a class for the contact form-->
+      <div class="contact">
+        <!-- create a form with a few div(S) for our inputs and a class for the form-->
+        <form>
+          <p id="sizeform">Contact Form</p>
+          <!--group the input name and phone number together/so we create a new div with class-->
+          <div class="both">
+            <div class="input-group">
+              <input type="text" id="name" required>
+              <!--added the icons with the i class below-->
+              <label for="name"><i class="fa-solid fa-user"></i> Your Name</label>
+              </div>
+              <div class="input-group">
+              <input type="text" id="number" required>
+              <label for="number"><i class="fa-solid fa-phone"></i> Phone Number</label>
+              </div>
+          </div> 
+          <div class="input-group">
+          <input type="email" id="email" required>
+          <label for="email"><i class="fa-solid fa-envelope"></i> Your Email</label>
+          </div>
+ 
+          <div class="input-group">
+          <textarea id="message" rows="8" required></textarea>
+          <label for="message"><i class="fas fa-comments"></i> Your Message</label>
+          </div>
+          <button type="submit">SUBMIT <i class="fa-solid fa-paper-plane"></i></button>
+
+        </form>
+      </div>
+
+
+
+
+  </body>
+</html>

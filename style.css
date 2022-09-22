@@ -1,0 +1,130 @@
+body {
+  background-color: rgb(254, 247, 210);
+}
+h1 {
+  color: rgb(93, 59, 14);
+}
+h2 {
+  color: rgb(93, 59, 14);
+}
+
+h3 {
+  color: rgb(93, 59, 14);
+}
+
+div {
+  background-color: transparent;
+  border-style: ridge;
+  border-color: transparent;
+  border-radius: 1px;
+  margin: 10px;
+}
+.shadow-text {
+  text-shadow: bisque 1px 1px;
+}
+
+.hov:hover {
+  background-color: gold;
+}
+
+.bigger {
+  font-size: 20px;
+  color: brown;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+tr:hover {
+  background-color: antiquewhite;
+}
+
+.imag {
+  float: right;
+}
+#header {
+  background-color: blanchedalmond;
+  padding: 10px;
+  color: brown;
+}
+#Bigger {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+.contact {
+  width: 70%;
+  height: 60vh;
+  background-color: transparent;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  width: 90%;
+  max-width: 200%;
+  margin: 100px;
+  padding: 90px;
+}
+.input-group {
+  margin: bottom 50px;
+  position: relative;
+}
+input,
+textarea {
+  background-color: transparent;
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid rgb(74, 8, 8);
+  color: blue;
+}
+
+label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: blue;
+  cursor: text;
+  transition: 0.1s;
+}
+button {
+  padding: 10px 0;
+  color: blue;
+  outline: none;
+  background-color: transparent;
+  width: 100px;
+  border: 1px solid rgb(74, 8, 8);
+  cursor: pointer;
+}
+input:focus ~ label,
+input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+  top: -35px;
+  font: size 20px;
+}
+/*create the css propr for the both class*/
+.both {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.both .input-group {
+  flex-basis: 49%;
+}
+#sizeform {
+  font-size: 30px;
+  text-align: center;
+  color: blue;
+}
